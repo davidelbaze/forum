@@ -1,0 +1,144 @@
+@import '_bootstrap.min';
+@import 'font/font1';
+@import 'font/font2';
+@import 'font/font3';
+@import 'font/font4';
+@import 'font/font5';
+@import 'font/font6';
+@import 'font/font7';
+@import 'font/font8';
+@import 'font/font9';
+
+
+body {
+    background:#EEE;   
+}
+
+
+div#container {
+    position:   absolute;
+    top:        0;
+    bottom:     0;
+    left:       0;
+    right:      0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index:    3;
+}
+
+* {
+    font-family: 'clear_sansregular';
+}
+
+h1{
+    font-family: 'clear_sansbold';   
+}
+
+div#head{
+    background:rgba(239, 239, 239, 1);   
+    h1 {
+        color:#2280B2;
+        display:inline-block;
+        margin-bottom:0;
+        margin-top:50px;
+        font-size:30px;
+    }
+    
+    h2 {
+        color:#2280B2;
+        margin:0;
+        font-size:20px;
+    }
+}
+
+div#main {
+    width:960px;
+    /*border:1px solid #111;*/
+    /*background:#EFEFEF;*/
+    background:rgba(239, 239, 239, 0.70);
+    
+    margin:0 auto;   
+    margin-top:50px;
+    
+    min-height:800px;
+}
+#content{
+ padding-left:40px;   
+    padding-right:40px;
+    padding-top:30px;
+}
+ul#menu{
+    display:flex; 
+    margin:0;
+    padding:0;
+    
+    li {
+        flex:1;
+        list-style:none;
+        text-align:center;
+        padding-top:10px;
+        padding-bottom:10px;
+        /*background-color:#666;*/
+        background-color:#2280B2;
+        color:white;
+       /* border-left:1px solid white;*/
+        transition: background 150ms linear, color 150ms linear;
+        cursor:pointer;
+        &:hover {
+            color:#666;
+            background:#DDDDDD;
+        }
+        &:first-child{
+            border:0 !important;
+        }
+    }
+}
+
+
+div#footer
+{
+    width:960px;
+    margin:0 auto;
+    height:150px;
+    margin-bottom:20px;
+    background:#2280B2;
+    #test {
+        display: flex;
+        .truc {
+            flex:1;   
+        }
+    }
+    
+    li {
+        color:white;
+        list-style:none;
+        &.big {
+            font-weight:bold;
+        }
+    }
+}
+
+
+#background {
+    position:fixed;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    background:#A9CEFF;
+    background-image:url(imgs/PhotoSGC.jpg);
+    z-index:2;
+    opacity:0.2;
+}
+
+div#bloc {
+   /* border-top-right-radius:10px;*/
+    padding:30px;
+    padding-top:10px;
+    /*font-size:30px;*/
+    text-align:justify;
+    /*background:#FFC400;*/
+    background:rgba(245, 245, 245, 1);
+    color:#2280B2;
+   /* color:white;*/
+}
