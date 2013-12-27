@@ -19903,7 +19903,7 @@ div#head h1 {
   color: #2280B2;
   display: inline-block;
   margin-bottom: 0;
-  margin-top: 50px;
+  margin-top: 0;
   font-size: 30px;
 }
 
@@ -19969,7 +19969,8 @@ div#main {
   }
 }
 
-ul#menu {
+ul#menu,
+ul.menu {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -19989,7 +19990,8 @@ ul#menu {
   }
 }
 
-ul#menu li {
+ul#menu li,
+ul.menu li {
   -webkit-box-align: center;
   -webkit-align-items: center;
   -moz-box-align: center;
@@ -20033,7 +20035,8 @@ ul#menu li {
   }
 }
 
-ul#menu li:hover {
+ul#menu li:hover,
+ul.menu li:hover {
   color: #666;
   background: #DDDDDD;
 }
@@ -20048,7 +20051,8 @@ ul#menu li:hover {
   }
 }
 
-ul#menu li:first-child {
+ul#menu li:first-child,
+ul.menu li:first-child {
   border: 0 !important;
 }
 
@@ -20237,7 +20241,7 @@ div#footer li.big {
   }
 
   line {
-    font-family: \00003168;
+    font-family: \00003169;
   }
 }
 

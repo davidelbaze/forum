@@ -40,7 +40,7 @@ div#head{
         color:#2280B2;
         display:inline-block;
         margin-bottom:0;
-        margin-top:50px;
+        margin-top:0;
         font-size:30px;
     }
     
@@ -67,7 +67,7 @@ div#main {
     padding-right:40px;*/
     padding-top:30px;
 }
-ul#menu{
+ul#menu, ul.menu{
     display:flex; 
     margin:0;
     padding:0;
@@ -164,6 +164,7 @@ div#footer
     padding-right:5%;
     padding-bottom:40px;
 }
+
 
 div#bloc {
    /* border-top-right-radius:10px;*/
