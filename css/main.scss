@@ -87,9 +87,9 @@ ul#menu, ul.menu{
        /* border-left:1px solid white;*/
         transition: background 150ms linear, color 150ms linear;
         cursor:pointer;
-        &:hover {
-            color:#666;
-            background:#DDDDDD;
+        &:hover, &.active {
+           /* color:#666;*/
+            background:#f29500;
         }
         &:first-child{
             border:0 !important;
@@ -97,7 +97,7 @@ ul#menu, ul.menu{
     }
 }
 
-
+/*
 ul#men {
     margin:0;
     padding:0;
@@ -116,18 +116,22 @@ ul#men {
         }
     }
 }
-
+*/
 div#footer
 {
     width:85%;
     margin:0 auto;
     height:150px;
+    padding-top:20px;
     margin-bottom:20px;
     background:#2280B2;
     #test {
         display: flex;
         .truc {
             flex:1;   
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
     }
     
@@ -136,6 +140,13 @@ div#footer
         list-style:none;
         &.big {
             font-weight:bold;
+        }
+    }
+    a{
+        color:white;
+        text-decoration:none;
+        &:hover {
+            text-decoration:underline;
         }
     }
 }
