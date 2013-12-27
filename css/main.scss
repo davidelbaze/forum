@@ -52,7 +52,7 @@ div#head{
 }
 
 div#main {
-    width:80%;
+    width:85%;
     /*border:1px solid #111;*/
     /*background:#EFEFEF;*/
     background:rgba(239, 239, 239, 0.70);
@@ -73,6 +73,9 @@ ul#menu{
     padding:0;
     
     li {
+        align-items:center;
+        justify-content:center;
+        display:flex;
         flex:1;
         list-style:none;
         text-align:center;
@@ -95,9 +98,28 @@ ul#menu{
 }
 
 
+ul#men {
+    margin:0;
+    padding:0;
+    li{
+        list-style:none;
+        text-align:center;
+        padding-top:10px;
+        padding-bottom:10px;
+        background-color:#2280B2;
+        color:white;
+        transition: background 150ms linear, color 150ms linear;
+        cursor:pointer;
+        &:hover {
+            color:#666;
+            background:#DDDDDD;
+        }
+    }
+}
+
 div#footer
 {
-    width:80%;
+    width:85%;
     margin:0 auto;
     height:150px;
     margin-bottom:20px;
@@ -129,6 +151,18 @@ div#footer
     background-image:url(../imgs/PhotoSGC.jpg);
     z-index:2;
     opacity:0.2;
+}
+
+.mybloc {
+    padding-top:10px;
+    /*font-size:30px;*/
+    text-align:justify;
+    /*background:#FFC400;*/
+    background:rgba(245, 245, 245, 1);
+    color:#2280B2;
+    padding-left:5%;
+    padding-right:5%;
+    padding-bottom:40px;
 }
 
 div#bloc {

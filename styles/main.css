@@ -19934,7 +19934,7 @@ div#head h2 {
 }
 
 div#main {
-  width: 80%;
+  width: 85%;
   /*border:1px solid #111;*/
   /*background:#EFEFEF;*/
   background: rgba(239, 239, 239, 0.7);
@@ -19990,6 +19990,21 @@ ul#menu {
 }
 
 ul#menu li {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -moz-box-flex: 1;
@@ -20014,7 +20029,7 @@ ul#menu li {
   }
 
   line {
-    font-family: \0000387;
+    font-family: \0000390;
   }
 }
 
@@ -20029,7 +20044,7 @@ ul#menu li:hover {
   }
 
   line {
-    font-family: \0000391;
+    font-family: \0000394;
   }
 }
 
@@ -20043,12 +20058,64 @@ ul#menu li:first-child {
   }
 
   line {
-    font-family: \0000398;
+    font-family: \00003101;
+  }
+}
+
+ul#men {
+  margin: 0;
+  padding: 0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/David\/Desktop\/FEI\/css\/main\.scss;
+  }
+
+  line {
+    font-family: \00003104;
+  }
+}
+
+ul#men li {
+  list-style: none;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #2280B2;
+  color: white;
+  -webkit-transition: background 150ms linear, color 150ms linear;
+  transition: background 150ms linear, color 150ms linear;
+  cursor: pointer;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/David\/Desktop\/FEI\/css\/main\.scss;
+  }
+
+  line {
+    font-family: \00003113;
+  }
+}
+
+ul#men li:hover {
+  color: #666;
+  background: #DDDDDD;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/David\/Desktop\/FEI\/css\/main\.scss;
+  }
+
+  line {
+    font-family: \00003120;
   }
 }
 
 div#footer {
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
   height: 150px;
   margin-bottom: 20px;
@@ -20061,7 +20128,7 @@ div#footer {
   }
 
   line {
-    font-family: \00003105;
+    font-family: \00003127;
   }
 }
 
@@ -20079,7 +20146,7 @@ div#footer #test {
   }
 
   line {
-    font-family: \00003107;
+    font-family: \00003129;
   }
 }
 
@@ -20097,7 +20164,7 @@ div#footer #test .truc {
   }
 
   line {
-    font-family: \00003112;
+    font-family: \00003134;
   }
 }
 
@@ -20112,7 +20179,7 @@ div#footer li {
   }
 
   line {
-    font-family: \00003115;
+    font-family: \00003137;
   }
 }
 
@@ -20126,7 +20193,7 @@ div#footer li.big {
   }
 
   line {
-    font-family: \00003122;
+    font-family: \00003144;
   }
 }
 
@@ -20148,7 +20215,29 @@ div#footer li.big {
   }
 
   line {
-    font-family: \00003134;
+    font-family: \00003156;
+  }
+}
+
+.mybloc {
+  padding-top: 10px;
+  /*font-size:30px;*/
+  text-align: justify;
+  /*background:#FFC400;*/
+  background: whitesmoke;
+  color: #2280B2;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 40px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/David\/Desktop\/FEI\/css\/main\.scss;
+  }
+
+  line {
+    font-family: \00003168;
   }
 }
 
